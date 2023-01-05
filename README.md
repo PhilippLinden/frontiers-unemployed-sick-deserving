@@ -1,14 +1,18 @@
-# How much money is appropriate? A vignette study on the acceptance of sanctions in SGB II
+# Unemployed + Sick = More Deserving? A Survey Experiment on How the Medicalization of Unemployment Affects Public Opinion
 
 ## Abstract
 
-Since the reforms of the Social Code Book II in 2004/05, sanctions in the minimum income system have been considered a central pillar of the activating welfare state. However, in terms of social policy, it is often debated whether sanctions are generally permissible, since those affected then live (temporarily) below the socio-cultural subsistence level. In addition, the Federal Constitutional Court classified cuts above 30 % of the minimum income benefits as unconstitutional in 2019 and called for a reform process. A broad public acceptance of the changed sanction practice may be achieved if empirical evidence on the perception of such sanctions accompanies the reform process. This article investigates – based on a Vignette analysis – which sanctions are considered acceptable by the population, when hypothetical welfare recipients violate their obligation to cooperate. A majority of the representative German sample (N = 2621) favours sanctions up to 30 % of the minimum income benefit. Sole factors such as low levels of motivation to look for work, missed appointments with the specialist advisors or having a foreign-sounding name significantly increase the acceptance of sanctions amongst the wider public. Especially a combination of these factors increases the acceptance of placing sanctions on welfare recipients. In contrast, the age of the hypothetical benefit recipients plays a marginal role.
+The literature on the social legitimacy of welfare benefits has shown that sick persons are perceived more deserving than unemployed individuals. However, these studies examine sick and unemployed persons as distinct groups, while unemployment and sickness are in fact strongly related. Policymakers across Europe have been increasingly concerned with discouraging a medicalization of unemployment and activating sick unemployed persons. Therefore, it is crucial to understand welfare attitudes toward this group. Using a factorial survey fielded with a representative sample of German-speaking adults (N=2,621), we investigate how sickness affects attitudes toward a hypothetical unemployed person on three dimensions: benefit levels, conditions, and sanctions. Respondents allocated similar benefit levels to unemployed persons regardless of whether they have an illness. Yet, they were more hesitant to apply existing conditions (e.g., active job search, job training) or sanction benefits when the unemployed person was also sick. This is except for conditions that tie benefits to obligatory health services (back training or psychological counseling) which was supported by the majority of respondents. Our research shows that the German public is not more generous and only partially more lenient toward sick unemployed persons as there is strong support for conditions targeted at overcoming ill health for this group. The findings underscore that sickness matters for how unemployed persons are perceived, but the impact varies across different dimensions of welfare attitudes.
+
+----
+
+The paper with the DOI: 10.5771/0342-300X-2021-6-454 can be obtained [here](https://www.wsi.de/de/wsi-mitteilungen-vignettenstudie-akzeptanz-sanktionen-im-sgb-ii-36761.htm) or requested directly from the author at [Linden Research](mailto:research@linden-online.com).
 
 ----
 
 ### History
 
-`2022-10-11`
+`2023-05-01`
 :  Setup
 
 ---
@@ -24,11 +28,14 @@ Since the reforms of the Social Code Book II in 2004/05, sanctions in the minimu
 `\03doc`
 :  Documentation and output incl. figures and tables
 
+`\04pap`
+:  Scientific paper
+
 ---
 
 ### Description
 
-This repository contains the code for the analysis in the paper entitled "Wieviel Geld ist angemessen? Eine Vignettenstudie zur Akzeptanz von Sanktionen im SGB II" which is published in the [WSI Mitteilungen - Ausgabe 06/2021](https://www.wsi.de/de/wsi-mitteilungen-vignettenstudie-akzeptanz-sanktionen-im-sgb-ii-36761.htm).
+This repository contains the code for the analysis in the paper entitled "Unemployed + Sick = More Deserving? A Survey Experiment on How the Medicalization of Unemployment Affects Public Opinion" which is published under open access in [Frontiers in Sociology](https://www.frontiersin.org/articles/10.3389/fsoc.2022.738397/full).
 
 The data for this analysis comes from a self-designed and self-programmed factorial survey with vignettes. Vignette are little case descriptions of situations or individuals, which allow to systematically vary factors under study (e.g. gender, age etc.). The factorial survey was implemented in the [YouGov panel Germany](https://yougov.de/panel/) with roughly 350.000 panelists. From here, we were able to recruit a sample of N=2.621 individuals, which are representative on the key variables gender, age, education and residence at state level. The raw data set is available after registration [here](DOI GESIS EINFÜGEN).
 
