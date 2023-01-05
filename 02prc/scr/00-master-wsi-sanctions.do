@@ -1,10 +1,10 @@
 /*==============================================================================
-File name: 		00-master-paper.do
-Task:			[PROJECT TITLE] - Master file
-Project:		[PROJECT]
-Version:		[SOFTWARE VERSION]
-Author:			[AUTHOR]
-Last update:	[DATE]
+File name: 		00-master-wsi-sanctions.do
+Task:			WSI Sanctions - Master file
+Project:		MEPYSO
+Version:		Stata 16.1
+Author:			Philipp Linden
+Last update:	2022-10-11
 ==============================================================================*/
 
 /*------------------------------------------------------------------------------ 
@@ -25,7 +25,7 @@ Notes:
 #1 Install ado files                                                         
 ------------------------------------------------------------------------------*/
 
-ssc install blindschemes, all replace												// Blind and colorblind scheme for graphs
+ssc install blindschemes, all replace											// Blind and colorblind scheme for graphs
 *ssc install [ado], all replace													// [DESCRIBE]
 
 /*------------------------------------------------------------------------------
@@ -48,8 +48,12 @@ set maxvar 32767      // size of data matrix
 
 * -> Retrieve c(username) by typing disp "`c(username)'" in command line
 
-if "`c(username)'" == "INSERT c(USERNAME) here" {
-	global wdir "INSERT PATH HERE"
+*if "`c(username)'" == "INSERT c(USERNAME) here" {
+*	global wdir "INSERT PATH HERE"
+*}
+
+if "`c(username)'" == "Linden" {
+	global wdir "C:\Users\Linden\Documents\GitHub\01-research\wsi-sanctions-analysis"
 }
 
 * main folder
@@ -72,7 +76,8 @@ global cbook	"${main}//03doc/var"			// codebooks
 
 /// ------ Project-Do-Files *
 
-*do "[do-file]"    				// [DESCRIPTION]
+*do "01-prep-wsi-sanctions"    					// Preparation of dataset
+*do "02-analysis-wsi-sanctions"    				// Runs the analysis
 
 *==============================================================================*
 
