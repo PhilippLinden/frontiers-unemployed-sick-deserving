@@ -29,7 +29,7 @@ The paper by Linden, P. & Reibling, N. with the DOI: 10.3389/fsoc.2022.738397 ca
 :  Documentation and output incl. figures and tables
 
 `\04pap`
-:  Scientific paper
+:  References for obtaining the paper
 
 ---
 
