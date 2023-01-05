@@ -1,6 +1,6 @@
 /*==============================================================================
-File name: 		00-master-wsi-sanctions.do
-Task:			WSI Sanctions - Master file
+File name: 		00-master-frontiers-deservingness.do
+Task:			Frontiers Deservingness - Master file
 Project:		MEPYSO
 Version:		Stata 16.1
 Author:			Philipp Linden
@@ -53,7 +53,7 @@ set maxvar 32767      // size of data matrix
 *}
 
 if "`c(username)'" == "Linden" {
-	global wdir "C:\Users\Linden\Documents\GitHub\01-research\wsi-sanctions-analysis"
+	global wdir "C:\Users\Linden\Documents\GitHub\01-research\frontiers-unemployed-sick-deserving"
 }
 
 * main folder
