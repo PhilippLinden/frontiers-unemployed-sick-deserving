@@ -6,7 +6,7 @@ The literature on the social legitimacy of welfare benefits has shown that sick 
 
 ----
 
-The paper with the DOI: 10.3389/fsoc.2022.738397 can be obtained [here](https://www.frontiersin.org/articles/10.3389/fsoc.2022.738397/full). If you have any questions, please send an E-Mail to [Linden Research](mailto:research@linden-online.com).
+The paper by Linden, P. & Reibling, N. with the DOI: 10.3389/fsoc.2022.738397 can be obtained [here](https://www.frontiersin.org/articles/10.3389/fsoc.2022.738397/full). If you have any questions, please send an E-Mail to [Linden Research](mailto:research@linden-online.com).
 
 ----
 
