@@ -37,7 +37,7 @@ The paper by Linden, P. & Reibling, N. with the DOI: 10.3389/fsoc.2022.738397 ca
 
 This repository contains the code for the analysis in the paper entitled "Unemployed + Sick = More Deserving? A Survey Experiment on How the Medicalization of Unemployment Affects Public Opinion" which is published under open access in [Frontiers in Sociology](https://www.frontiersin.org/articles/10.3389/fsoc.2022.738397/full).
 
-The data for this analysis comes from a self-designed and self-programmed factorial survey with vignettes. Vignette are little case descriptions of situations or individuals, which allow to systematically vary factors under study (e.g. gender, age etc.). The factorial survey was implemented in the [YouGov panel Germany](https://yougov.de/panel/) with roughly 350.000 panelists. From here, we were able to recruit a sample of N=2.621 individuals, which are representative on the key variables gender, age, education and residence at state level. The raw data set is available after registration [here](DOI GESIS EINFÜGEN).
+The data for this analysis comes from a self-designed and self-programmed factorial survey with vignettes. Vignette are little case descriptions of situations or individuals, which allow to systematically vary factors under study (e.g. gender, age etc.). The factorial survey was implemented in the [YouGov panel Germany](https://yougov.de/panel/) with roughly 350.000 panelists. From here, we were able to recruit a sample of N=2.621 individuals, which are representative on the key variables gender, age, education and residence at state level. The raw data set is available after registration [here](https://search.gesis.org/research_data/SDN-10.7802-2465?doi=10.7802/2465).
 
 ---
 
